@@ -1,0 +1,33 @@
+*{
+   box-sizing: border-box; 
+}
+
+
+
+.left h2{ margin-top: 25px;}
+.right{
+    margin-left: 25%;
+
+}
+input , label ,button{
+    font-size: 16px;    
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5pt;
+    border: none;
+    color: black;
+}
+h1{text-align: center;}
+button#create  {
+      padding: 5px 75px;
+}
+input#create ,input#s-t ,input#s-g ,button{
+    cursor: pointer;
+}
+input:hover , button:hover{
+    background-color: #222;
+    color: white;
+}
+input:focus{
+    transform: scale(1.1);
+}
